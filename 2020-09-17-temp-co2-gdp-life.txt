@@ -1,0 +1,163 @@
+{
+  "name": "Global Temperatures",
+  "description": "Global Temperatures",
+  "columns": 1,
+  "rows": 2,
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "Year": "1880s",
+          "Temp": -20.9,
+          "CAR": 17.45,
+          "CAR1": 290.75,
+          "GDP": 0,
+          "Life": 0
+        },
+        {
+          "Year": "1890s",
+          "Temp": -23.5,
+          "CAR": 17.65,
+          "CAR1": 294.17,
+          "GDP": 5.08,
+          "Life": 0
+        },
+        {
+          "Year": "1900s",
+          "Temp": -30.2,
+          "CAR": 17.85,
+          "CAR1": 297.47,
+          "GDP": 0,
+          "Life": 32
+        },
+        {
+          "Year": "1910s",
+          "Temp": -29.6,
+          "CAR": 18.07,
+          "CAR1": 301.23,
+          "GDP": 7.34,
+          "Life": 34.1
+        },
+        {
+          "Year": "1920s",
+          "Temp": -22,
+          "CAR": 18.29,
+          "CAR1": 304.77,
+          "GDP": 8.54,
+          "Life": 0
+        },
+        {
+          "Year": "1930s",
+          "Temp": -11.8,
+          "CAR": 18.49,
+          "CAR1": 308.15,
+          "GDP": 0.00,
+          "Life": 0
+        },
+        {
+          "Year": "1940s",
+          "Temp": 6,
+          "CAR": 18.67,
+          "CAR1": 311.22,
+          "GDP": 0,
+	  "Life": 0
+        },
+        {
+          "Year": "1950s",
+          "Temp": -5,
+          "CAR": 18.86,
+          "CAR1": 314.31,
+          "GDP": 11.24,
+          "Life": 48.13
+        },
+        {
+          "Year": "1960s",
+          "Temp": -2.7,
+          "CAR": 19.22,
+          "CAR1": 320.29,
+          "GDP": 14.82,
+          "Life": 53.01
+        },
+        {
+          "Year": "1970s",
+          "Temp": 3.2,
+          "CAR": 19.85,
+          "CAR1": 330.85,
+          "GDP": 20.10,
+          "Life": 58.98
+        },
+        {
+          "Year": "1980s",
+          "Temp": 25.5,
+          "CAR": 20.73,
+          "GDP": 22.93,
+          "Life": 62.72
+        },
+        {
+          "Year": "1990s",
+          "Temp": 39.9,
+          "CAR": 21.63,
+          "CAR1": 360.46,
+          "GDP": 12.00,
+          "Life": 65.01
+        },
+        {
+          "Year": "2000s",
+          "Temp": 59.5,
+          "CAR": 22.71,
+          "CAR1": 378.58,
+          "GDP": 25.54,
+          "Life": 67.82
+        },
+        {
+          "Year": "2010s",
+          "Temp": 67,
+          "CAR": 23.94,
+          "CAR1": 398.97,
+          "GDP": 41.88,
+          "Life": 71.41
+        }
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "type": "line",
+      "data": "table",
+      "position": {
+        "columns": 1,
+        "rows": 1,
+        "x": 0,
+        "y": 0
+      },
+      "axes": {
+        "x": {
+          "label": "Year",
+          "dataColumn": "Year"
+        },
+        "y": {
+          "label": "Temperature",
+          "dataColumns": [
+            {
+              "name": "Temp",
+              "color": "#809fff"
+            },
+            {
+              "name": "CAR",
+              "color": " #000d33"
+            },
+            {
+              "name": "GDP",
+              "color": " #3366ff"
+            },
+            {
+              "name": "Life",
+              "color": " #4466ff"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
